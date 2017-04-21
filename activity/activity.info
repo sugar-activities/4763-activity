@@ -1,0 +1,6 @@
+[Activity]
+name = 3D Shapes
+activity_version = 1
+bundle_id = org.sugarlabs.3DShapes
+exec = sugar-activity-web
+icon = activity-icon

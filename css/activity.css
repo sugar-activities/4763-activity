@@ -1,0 +1,138 @@
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-icon.svg);}
+
+html,body {
+background:#C0C0C0;
+font-size:11px;
+font-family:verdana;
+text-align:center;
+height: 100%;
+width: 100%;
+color:#3D444E;
+}
+canvas{
+margin:0px;
+padding:0px;
+background:#FFFFFF;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+
+}
+#main {
+margin:auto;
+border:10px solid #3D444E;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;
+height: 100%;
+width: 100%;
+
+}
+
+#main-toolbar{
+    -moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;
+
+
+}
+#menu,
+#menu ul {
+    list-style: none;
+    
+
+}
+#menu {
+    float:left ;
+}
+#menu > li {
+    font-family: Arial;
+    font-size: 16px;
+    
+    float: left;
+}
+#menu li a {
+display: block;
+    height: 2em;
+    width: 200px;
+    line-height: 0em;
+    padding: 0;
+    text-decoration: none;
+}
+#menu ul{
+     font-size: 16px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+border-radius:12px;
+
+    position: absolute;
+    display: none;
+z-index: 999;
+ background: #f09d28;
+
+}
+#menu ul li a {
+    width: 200px;
+    height: 45px;
+    /*border:2px solid #3D444E;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;*/
+text-align: left;
+padding: 10px;
+padding-right: 0px;
+padding-top: 10px;
+
+}
+
+#menu li:hover ul {
+    display: block;
+    margin-top: -20px;
+}
+#menu ul li:hover a {
+    background: #ffc97c;
+    font-size: 16px;
+
+}
+#res{
+    background-color: transparent;
+    background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+margin-right: 121px;
+    margin-top: -20px;
+            height:45px;
+width:200px;
+font-size: 16px;
+}
+#hull {
+padding:5px;
+width:750px;
+
+/*margin:auto;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;
+position:relative;
+*/
+
+}
+#img{
+background-image: url(../icons/help.svg);
+display: block;
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+  margin-left:50px;
+  
+}
+#but{
+background-image: url(../icons/restart.svg);
+margin-left:40px;
+display: block;
+  width: 55px;
+  height: 55px;
+  background-color: transparent;
+}

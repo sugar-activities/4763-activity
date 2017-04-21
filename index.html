@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+<title>3D Shapes</title>
+<link rel="stylesheet" media="not screen and (device-width: 1200px) and (device-height: 900px)"
+      href="lib/sugar-web/graphics/css/sugar-96dpi.css">
+<link rel="stylesheet" media="screen and (device-width: 1200px) and (device-height: 900px)"
+      href="lib/sugar-web/graphics/css/sugar-200dpi.css">
+<link rel="stylesheet" href="css/activity.css">
+<script data-main="js/loader" src="lib/require.js">
+</script>
+
+
+</head>
+<body>
+
+<div id="main" onload="init()">
+    
+    <div style="background-color:#000000; color:white; margin:2px; padding:20px;" id="main-toolbar" class="toolbar">
+    
+  <ul id='menu'>
+    <li><button class="toolbutton" id="activity-button" title="My Activity" ></button>
+  </li>
+ <li id="but"><a href='#'><button id="res" onclick="my()"style="position:absolute;top:70px; left:70px;" ></button></a></li>
+ <li id="img"><a href='#'  style="position:absolute;top:70px; left:250px;"></a>
+   <ul style="position:absolute;top:100px; left:250px;">
+    <li><a href='#'>ARROWS = Rotate</a></li>
+    <li><a href='#'>CTRL + CLICK = Add</a></li>
+    <li><a href='#'>SHIFT + CLICK = Link</a></li>
+     <li><a href='#'>SPACE + CLICK = Delete</a></li>
+     
+     </ul>
+</li>
+</ul>
+  
+ <button class="toolbutton pull-right" id="stop-button" title="Stop">
+    
+
+</div>
+<div id="hull" style="position:absolute; top:120px; left:350px; z-index:2">
+
+<canvas id="canvas" height="500" width="750"style="position:absolute; top:0px; left:0px; z-index:2">how can you use the internet?</canvas>
+
+<span id="debug"></span>
+</div>
+</body>
+</html>
+
+
